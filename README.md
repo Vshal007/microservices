@@ -1,5 +1,4 @@
 1. First pull all the images
-
  docker pull vshal007/micro-front:v1.0
  docker pull vshal007/micro-auth:v1.0
  docker pull vshal007/micro-departments:v1.0
