@@ -1,10 +1,14 @@
 1. First pull all the images
- docker pull vshal007/micro-front:v1.0
- docker pull vshal007/micro-auth:v1.0
- docker pull vshal007/micro-departments:v1.0
- docker pull vshal007/micro-employee:v1.0
+   
+ a. docker pull vshal007/micro-front:v1.0
 
-2. docker-compose.yml file:
+ b. docker pull vshal007/micro-auth:v1.0
+ 
+ c. docker pull vshal007/micro-departments:v1.0
+ 
+ d. docker pull vshal007/micro-employee:v1.0
+
+3. docker-compose.yml file:
 
 ////////////////////////////////////// 
 
