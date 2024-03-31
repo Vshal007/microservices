@@ -7,6 +7,7 @@
 2. docker-compose.yml file:
 
 ////////////////////////////////////// 
+
 version: '3.8'
 
 services:
@@ -44,7 +45,10 @@ services:
     networks:
       - my-network
 
+
 networks:
+
   my-network:
     driver: bridge
+    
 /////////////////////////////////////////
