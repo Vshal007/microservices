@@ -23,7 +23,6 @@ services:
     image: vshal007/micro-auth
     ports:
       - "4000:4000"
-    # Add any other configurations specific to your authentication service
     networks:
       - my-network
 
@@ -31,7 +30,6 @@ services:
     image: vshal007/micro-employee
     ports:
       - "5000:5000"
-    # Add any other configurations specific to your employees backend
     networks:
       - my-network
 
@@ -41,7 +39,6 @@ services:
       - "8000:8000"
     depends_on:
       - employees
-    # Add any other configurations specific to your departments backend
     networks:
       - my-network
 
