@@ -15,7 +15,6 @@ services:
     image: vshal007/micro-front
     ports:
       - "3000:3000"
-    # Add any other frontend configurations here
     networks:
       - my-network
 
